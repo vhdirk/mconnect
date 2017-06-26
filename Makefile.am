@@ -78,7 +78,10 @@ mconnect_SOURCES = \
 	src/mconnect/config.vala \
 	src/mconnect/application.vala \
 	src/mconnect/utils.vala \
-	src/mconnect/property-proxy.vala
+	src/mconnect/property-proxy.vala \
+	src/mconnect/transfer.vala \
+	src/mconnect/transfer-download.vala
+
 
 mconnect_LDADD = \
 	libmconn-crypt.la \
