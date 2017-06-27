@@ -75,7 +75,7 @@ class DeviceChannel : Object {
 
 		// setup socket monitoring
 		Socket sock = _conn.get_socket();
-		socket_set_keepalive(sock);
+		Utils.socket_set_keepalive(sock);
 
 		// prep source for monitoring events
 		var source = sock.create_source(IOCondition.IN);
